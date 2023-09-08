@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* reset */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+section,
+article,
+figure {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+/*article > * + * {
+    margin-top: 1em;
+  }*/
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/***********************/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #79787f;
+}
+
+#barba {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+
+#links li {
+    list-style: none;
+    display: flex;
+    float: left;
+    margin: 0 10px 0 0;
+
+}
+
+#links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    font-weight: 550;
+    -webkit-transition: all 275ms ease;
+    -o-transition: all 275ms ease;
+    transition: all 275ms ease;
+    background-color: #000000;
+
+}
+
+#links a:visited {
+    color: #ffffff;
+
+}
+
+#links a:hover {
+    color: #ff4500;
+}
