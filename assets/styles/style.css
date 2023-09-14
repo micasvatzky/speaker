@@ -103,56 +103,79 @@ select {
 
 /***********************/
 
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    font: 1em sans-serif;
+}
+
+
 header {
-    background-color: #79787f;
-}
-
-#barba {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-#titulo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
-}
-
-
-#links li {
-    list-style: none;
     display: flex;
-    float: left;
-    margin: 0 10px 0 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1D24;
+}
+
+header>div {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin:1em auto;
 
 }
 
-#links a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 8px;
-    font-weight: 550;
-    -webkit-transition: all 275ms ease;
-    -o-transition: all 275ms ease;
-    transition: all 275ms ease;
-    background-color: #000000;
+header h1 {
+    width: 15%;
+    display:flex;
+}
+
+h1 span{
+    display:inline;
+    color:white;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline;
+}
+
+#barba{
+    display: flex;
+    background-image:url("https://livedemo00.template-help.com/wt_prod-25861/images/bg-image-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:80vh;
+    position: relative;
+}
+
+.font1875{
+    font-size: 1.875em;
+    font-weight: bolder;
+    text-transform: uppercase;
 
 }
 
-#links a:visited {
-    color: #ffffff;
-
+#titulo{
+    display:block;
+    position:absolute;
+    top:30%;
+    left:50%;
 }
 
-#links a:hover {
-    color: #ff4500;
+
+#titulo h1{
+    font-size: 3.75em;
+    color:#ffffff;
+    font-weight: 600;
+
 }
