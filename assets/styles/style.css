@@ -135,11 +135,15 @@ body{
     line-height: 1.4;
 }
 
-.texto.gris{
+.texto-gris{
     font-size: 0.875em;
     padding: 15px 5px;
 }
 
+.texto-naranja{
+    font-size: 0.875em;
+    color:#ff6a21;
+}
 
 * {
     font-family: 'Montserrat', sans-serif;
