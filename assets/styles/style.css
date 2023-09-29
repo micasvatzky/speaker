@@ -102,11 +102,15 @@ select {
 
 /* utility classes*/
 
-body{
-    font: 16px sans-serif;
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.boton-primario-blanco{
+body{
+    font-size: 16px;
+}
+
+.boton-primario-blanco, .boton-primario-negro{
     color:#ffffff;
     background-color: #f75506;
     border: #f75506 1px solid;
@@ -119,6 +123,20 @@ body{
     font-size: 0.813em;
 }
 
+
+.boton-primario-negro:hover{
+    color:#ffffff;
+    background-color: #000000;
+    border: #000000 1px solid;
+  
+}
+
+.boton-primario-blanco:hover{
+    color:#f75506;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+}
+
 .texto-blanco{
     color:#ffffff;
 }
@@ -127,7 +145,10 @@ body{
     font-size: 1.875em;
     font-weight: bolder;
     text-transform: uppercase;
+}
 
+.fondo-naranja{
+    background-color: #ff6a21;
 }
 
 .subtitulo-gris{
@@ -135,41 +156,58 @@ body{
     line-height: 1.4;
 }
 
-.texto-gris{
+.texto-gris-grande{
     font-size: 0.875em;
     padding: 15px 5px;
 }
+
 
 .texto-naranja{
     font-size: 0.875em;
     color:#ff6a21;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-
 
 header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #1E1D24;
+    padding: 1.063em 0;
+    
 }
 
-header>div {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    margin:1em auto;
-
-}
 
 header h1 {
     width: 15%;
     display:flex;
+}
+
+.header{
+    width:70%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header nav {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: flex-end;
+    
+}
+
+.header span{
+    font-size: 0.75em;
+    margin-left: 0.375em;
+    padding-top:0.5em;
+    font-weight: 600;
+
 }
 
 h1 span{
@@ -177,15 +215,17 @@ h1 span{
     color:white;
 }
 
-nav {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+nav li {
+    display:inline;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin:0.5em ;
+    
 }
 
-nav li {
-    display: inline;
+.hover-naranja:hover{
+    color:#f75506;
 }
 
 #barba{
@@ -193,18 +233,27 @@ nav li {
     background-image:url("https://livedemo00.template-help.com/wt_prod-25861/images/bg-image-1.jpg");
     background-size: cover;
     background-position: center;
-    height:80vh;
+    height:90vh;
     position: relative;
+    align-items: center;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
 
+.logo a{
+    width:30%;
+    margin-right: 0.375em;
+}
 
 #titulo{
-    display:block;
+    display:flex;
+    flex-wrap: wrap;
     position:absolute;
     top:30%;
     left:50%;
-
 }
 
 
@@ -218,9 +267,17 @@ nav li {
 }
 
 #titulo p{
-    margin: 0.375em;
+    width: 80%;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
 }
 
 #titulo a{
-    margin: 0.375em;
+    margin: 1em;
+    width:30%;
+    font-size: 0.75em;
+    justify-content:center;
+    text-align: center;
 }
