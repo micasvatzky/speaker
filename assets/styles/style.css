@@ -234,8 +234,8 @@ nav li {
     background-size: cover;
     background-position: center;
     height:90vh;
-    position: relative;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .logo{
@@ -251,9 +251,10 @@ nav li {
 #titulo{
     display:flex;
     flex-wrap: wrap;
-    position:absolute;
-    top:30%;
-    left:50%;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -276,7 +277,6 @@ nav li {
 
 #titulo a{
     margin: 1em;
-    width:30%;
     font-size: 0.75em;
     justify-content:center;
     text-align: center;
