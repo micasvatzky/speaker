@@ -156,25 +156,17 @@ body{
     line-height: 1.4;
 }
 
-.p-gris-0875{
+.texto-gris-grande{
     font-size: 0.875em;
     padding: 15px 5px;
-    color: #79787f;
 }
 
-.p-gris-075{
-    font-size: 0.75em;
-    padding: 15px 5px;
-    color: #79787f;
-}
 
 .texto-naranja{
+    font-size: 0.875em;
     color:#ff6a21;
 }
 
-#precios span, #each-new span, #rec-post span{
-    color:#ff6a21;
-}
 
 header {
     display: flex;
