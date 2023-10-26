@@ -260,7 +260,8 @@ nav li {
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 50%;
+    margin-top: 2em;
+    width: 70%;
     margin-right: 2em;
     justify-content: right;
     align-items: center;
