@@ -1,0 +1,192 @@
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote {
+    
+   
+margin: 0;
+    
+   
+padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    
+   
+color: #fff;
+    padding: 10px 0;
+    
+   
+text-align: center;
+}
+
+nav ul {
+    
+   
+list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    
+   
+margin-right: 20px;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    
+   
+margin: 20px 0;
+    
+   
+border-radius: 5px;
+    
+   
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    color: #333;
+    
+   
+margin-bottom: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 20px;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment {
+    
+   
+margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.comment p {
+    margin-bottom: 10px;
+}
+
+.comment .author {
+    
+   
+font-weight: bold;
+}
+
+.comment .date {
+    color: #888;
+}
+
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form label,
+.comment-form textarea {
+    
+   
+display: block;
+    margin-bottom: 10px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Estilos para la lista de navegación */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    
+   
+padding: 10px;
+    text-align: center;
+}
